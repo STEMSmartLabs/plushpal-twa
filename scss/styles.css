@@ -30,15 +30,16 @@ body {
 #mobile-brand-banner {
   position: fixed;
   top: 10px;
-  left: 50%;
-  transform: translateX(-50%);
+  right: 24px;
+  left: auto;
+  transform: none;
   z-index: 2;
   pointer-events: none;
 }
 
 #mobile-brand-banner img {
-  width: 160px;
-  max-width: 160px;
+  width: 130px;
+  max-width: 130px;
   height: auto;
 }
 

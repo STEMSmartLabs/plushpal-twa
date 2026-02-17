@@ -53,14 +53,14 @@ div.container {
   width: 100% !important;
 }
 
-/* Requested: center content inside the light green instructions box */
+/* Keep instruction box style aligned with plushpal.app */
 #instructions {
-  text-align: center !important;
+  text-align: left !important;
 }
 
 #instructions img {
   display: block;
-  margin: 12px auto !important;
+  margin: 12px 0 !important;
 }
 
 /* Requested: add clearer spacing between sections */

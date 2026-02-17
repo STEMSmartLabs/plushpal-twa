@@ -69,6 +69,11 @@ div.container {
   padding-top: 20px !important;
 }
 
+/* prevent heading/content overlap from base desktop styles */
+div.container .content {
+  margin-top: 8px !important;
+}
+
 .heading {
   position: relative !important;
   top: 0 !important;

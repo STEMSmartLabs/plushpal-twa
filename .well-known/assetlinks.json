@@ -1,0 +1,14 @@
+[
+  {
+    "relation": [
+      "delegate_permission/common.handle_all_urls"
+    ],
+    "target": {
+      "namespace": "android_app",
+      "package_name": "io.github.stemsmartlabs.twa",
+      "sha256_cert_fingerprints": [
+        "AF:28:8B:97:C6:E9:6D:2C:A1:C9:62:8D:2C:17:91:E9:E4:58:5C:13:D6:59:56:4D:59:E0:A8:BB:BA:AB:7D:05"
+      ]
+    }
+  }
+]

@@ -1,89 +1,91 @@
-/* Force mobile single-column layout for PlushPal mobile route */
-html, body {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 !important;
-  padding: 12px !important;
-  overflow-x: hidden !important;
-}
+/* Mobile-only overrides (keep desktop/laptop on default layout) */
+@media only screen and (max-width: 900px) {
+  html, body {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 !important;
+    padding: 12px !important;
+    overflow-x: hidden !important;
+  }
 
-#mobile-brand-banner {
-  width: 100%;
-  text-align: center;
-  margin: 0 0 12px 0;
-}
+  #mobile-brand-banner {
+    width: 100%;
+    text-align: center;
+    margin: 0 0 12px 0;
+  }
 
-#mobile-brand-banner img {
-  max-width: 140px;
-  width: 38%;
-  height: auto;
-}
+  #mobile-brand-banner img {
+    max-width: 140px;
+    width: 38%;
+    height: auto;
+  }
 
-#console {
-  position: static !important;
-  width: 100% !important;
-  max-width: 100% !important;
-  margin: 0 0 16px 0 !important;
-}
+  #console {
+    position: static !important;
+    width: 100% !important;
+    max-width: 100% !important;
+    margin: 0 0 16px 0 !important;
+  }
 
-.main-content {
-  display: block !important;
-  float: none !important;
-  width: 100% !important;
-  margin-top: 0 !important;
-}
+  .main-content {
+    display: block !important;
+    float: none !important;
+    width: 100% !important;
+    margin-top: 0 !important;
+  }
 
-.row-container {
-  display: block !important;
-}
+  .row-container {
+    display: block !important;
+  }
 
-#gestures-container,
-#sounds-container,
-#triggers-container,
-#hearing-container,
-#timer-container,
-div.container {
-  width: 100% !important;
-  max-width: 100% !important;
-  margin-bottom: 16px !important;
-}
+  #gestures-container,
+  #sounds-container,
+  #triggers-container,
+  #hearing-container,
+  #timer-container,
+  div.container {
+    width: 100% !important;
+    max-width: 100% !important;
+    margin-bottom: 16px !important;
+  }
 
-#pair-btn {
-  display: block !important;
-  width: 100% !important;
-}
+  #pair-btn {
+    display: block !important;
+    width: 100% !important;
+  }
 
-/* Keep instruction box style aligned with plushpal.app */
-#instructions {
-  text-align: left !important;
-}
+  /* Keep instruction box style aligned with plushpal.app */
+  #instructions {
+    text-align: left !important;
+  }
 
-#instructions img {
-  display: block;
-  margin: 12px 0 !important;
-}
+  #instructions img {
+    display: block;
+    margin: 12px 0 !important;
+  }
 
-/* Requested: add clearer spacing between sections */
-div.container {
-  margin-bottom: 28px !important;
-  padding-top: 20px !important;
-}
+  /* Requested: add clearer spacing between sections */
+  div.container {
+    margin-bottom: 28px !important;
+    padding-top: 20px !important;
+  }
 
-/* Hearing block: prevent heading overlap with noise panel */
-#hearing-container #noise-level-display {
-  margin-top: 10px !important;
-}
+  /* Hearing block: prevent heading overlap with noise panel */
+  #hearing-container #noise-level-display {
+    margin-top: 10px !important;
+  }
 
-/* prevent heading/content overlap from base desktop styles */
-div.container .content {
-  margin-top: 8px !important;
-}
+  /* prevent heading/content overlap from base desktop styles */
+  div.container .content {
+    margin-top: 8px !important;
+  }
 
-.heading {
-  position: relative !important;
-  top: 0 !important;
-  margin-bottom: 12px !important;
-}
+  .heading {
+    position: relative !important;
+    top: 0 !important;
+    margin-bottom: 12px !important;
+  }
 
-.desktop-instructions { display: none !important; }
-.mobile-instructions { display: block !important; }
+  .desktop-instructions { display: none !important; }
+  .mobile-instructions { display: block !important; }
+}

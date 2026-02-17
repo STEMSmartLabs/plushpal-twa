@@ -24,6 +24,18 @@ body {
   position: relative;
 }
 
+#mobile-brand-banner {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 12px 0;
+}
+
+#mobile-brand-banner img {
+  max-width: 180px;
+  width: 100%;
+  height: auto;
+}
+
 a:hover{
   cursor: pointer;
 }

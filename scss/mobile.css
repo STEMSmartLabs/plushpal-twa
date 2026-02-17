@@ -69,6 +69,11 @@ div.container {
   padding-top: 20px !important;
 }
 
+/* Hearing block: prevent heading overlap with noise panel */
+#hearing-container #noise-level-display {
+  margin-top: 10px !important;
+}
+
 /* prevent heading/content overlap from base desktop styles */
 div.container .content {
   margin-top: 8px !important;

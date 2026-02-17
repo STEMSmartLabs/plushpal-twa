@@ -53,5 +53,27 @@ div.container {
   width: 100% !important;
 }
 
+/* Requested: center content inside the light green instructions box */
+#instructions {
+  text-align: center !important;
+}
+
+#instructions img {
+  display: block;
+  margin: 12px auto !important;
+}
+
+/* Requested: add clearer spacing between sections */
+div.container {
+  margin-bottom: 28px !important;
+  padding-top: 20px !important;
+}
+
+.heading {
+  position: relative !important;
+  top: 0 !important;
+  margin-bottom: 12px !important;
+}
+
 .desktop-instructions { display: none !important; }
 .mobile-instructions { display: block !important; }

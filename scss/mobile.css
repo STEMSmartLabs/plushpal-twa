@@ -7,6 +7,18 @@ html, body {
   overflow-x: hidden !important;
 }
 
+#mobile-brand-banner {
+  width: 100%;
+  text-align: center;
+  margin: 0 0 12px 0;
+}
+
+#mobile-brand-banner img {
+  max-width: 280px;
+  width: 75%;
+  height: auto;
+}
+
 #console {
   position: static !important;
   width: 100% !important;

@@ -1,0 +1,45 @@
+/* Force mobile single-column layout for PlushPal mobile route */
+html, body {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 !important;
+  padding: 12px !important;
+  overflow-x: hidden !important;
+}
+
+#console {
+  position: static !important;
+  width: 100% !important;
+  max-width: 100% !important;
+  margin: 0 0 16px 0 !important;
+}
+
+.main-content {
+  display: block !important;
+  float: none !important;
+  width: 100% !important;
+  margin-top: 0 !important;
+}
+
+.row-container {
+  display: block !important;
+}
+
+#gestures-container,
+#sounds-container,
+#triggers-container,
+#hearing-container,
+#timer-container,
+div.container {
+  width: 100% !important;
+  max-width: 100% !important;
+  margin-bottom: 16px !important;
+}
+
+#pair-btn {
+  display: block !important;
+  width: 100% !important;
+}
+
+.desktop-instructions { display: none !important; }
+.mobile-instructions { display: block !important; }

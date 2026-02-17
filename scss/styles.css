@@ -26,15 +26,19 @@ body {
   position: relative;
 }
 
+/* Brand banner on desktop without affecting layout flow */
 #mobile-brand-banner {
-  width: 100%;
-  text-align: center;
-  margin: 0 0 12px 0;
+  position: fixed;
+  top: 10px;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 2;
+  pointer-events: none;
 }
 
 #mobile-brand-banner img {
-  max-width: 180px;
-  width: 100%;
+  width: 160px;
+  max-width: 160px;
   height: auto;
 }
 

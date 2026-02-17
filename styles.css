@@ -705,43 +705,62 @@ label.gesture .remove{
 }
 
 /* mobile view */
-@media only screen and (max-width: 600px){
+@media only screen and (max-width: 900px){
   body{
     width: 100%;
+    max-width: 100%;
     padding: 12px;
     margin: 0;
+    overflow-x: hidden;
   }
-  .main-content{
-    display: block;
-    width: 100%;
-    float: none;
-    margin-top: 12px;
-  }
-  .row-container{
-    grid-template-columns: 1fr;
-  }
+
   #console{
     position: static;
     width: 100%;
     max-width: 100%;
-    margin: 0;
+    margin: 0 0 16px 0;
   }
+
+  .main-content{
+    display: block;
+    width: 100%;
+    float: none;
+    margin-top: 0;
+  }
+
+  .row-container{
+    display: block;
+  }
+
+  #gestures-container,
+  #sounds-container,
+  #triggers-container,
+  #hearing-container,
+  #timer-container{
+    width: 100%;
+    max-width: 100%;
+    margin-bottom: 16px;
+  }
+
   div.container{
     margin-bottom: 16px;
   }
+
   #pair-btn{
     display: initial;
     width: 100%;
   }
+
   .desktop-instructions{
     display: none;
   }
+
   .mobile-instructions{
     display: block;
   }
 }
 
-@media only screen and (min-width: 600px){
+@media only screen and (min-width: 901px){
   #pair-btn{
     display: initial;
   }

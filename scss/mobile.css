@@ -1,5 +1,5 @@
 /* Mobile-only overrides (keep desktop/laptop on default layout) */
-@media only screen and (max-width: 900px) {
+@media only screen and (max-width: 900px) and (hover: none) and (pointer: coarse) {
   html, body {
     width: 100% !important;
     max-width: 100% !important;

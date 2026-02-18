@@ -90,6 +90,22 @@
     margin-bottom: 12px !important;
   }
 
+  /* Gestures header and action buttons: avoid overlap on narrow phones */
+  #gestures-container .data-options-container {
+    position: static !important;
+    right: auto !important;
+    top: auto !important;
+    margin: 8px 0 10px !important;
+    justify-content: flex-end !important;
+    flex-wrap: wrap !important;
+    gap: 6px !important;
+  }
+
+  #gestures-container .data-options-container button,
+  #gestures-container #data-upload-label {
+    margin: 0 !important;
+  }
+
   .desktop-instructions { display: none !important; }
   .mobile-instructions { display: block !important; }
 }
